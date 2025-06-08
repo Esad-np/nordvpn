@@ -1,4 +1,5 @@
 .git
+build.sh
 .github
 .img
 *.md
