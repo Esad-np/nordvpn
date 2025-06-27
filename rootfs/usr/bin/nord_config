@@ -29,7 +29,8 @@ if [[ -n ${MESHNET} ]]; then
   fi
 fi
 
-#[[ -n ${KILLSWITCH} ]] && nordvpn set killswitch ${KILLSWITCH} Killswitch is enabled by default using iptables
+[[ -n ${KILLSWITCH} ]] && nordvpn set killswitch ${KILLSWITCH} 
+# Killswitch is enabled by default using iptables
 
 [[ -n ${PROTOCOL} ]] && nordvpn set protocol ${PROTOCOL}
 
